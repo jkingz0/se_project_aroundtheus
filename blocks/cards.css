@@ -1,0 +1,9 @@
+.cards {
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .cards {
+    margin-top: auto;
+  }
+}
