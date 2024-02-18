@@ -5,20 +5,10 @@
   border-top-right-radius: 10px;
   list-style: none;
   max-width: 282px;
-  max-height: 361px;
   width: 100%;
   overflow: hidden;
   position: relative;
   color: #fff;
-}
-
-.card__list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 282px);
-  grid-gap: 20px 17px;
-  padding: 0;
-  margin: 0;
 }
 
 .card__image {
@@ -30,7 +20,6 @@
 
 .card__name {
   max-width: 219px;
-  max-height: 29px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 24px;
@@ -53,12 +42,13 @@
   border-bottom-left-radius: 10px;
 }
 
-.card_like-button {
+.card__like-button {
   background: transparent url(../images/like-inactive.svg) center no-repeat;
   width: 21px;
   height: 18px;
   border: none;
   color: #000;
+  cursor: pointer;
 }
 
 .card__like-button:hover {
