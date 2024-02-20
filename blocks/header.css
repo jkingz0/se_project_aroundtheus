@@ -28,6 +28,7 @@
   .header__logo {
     max-width: 126px;
     max-height: 24px;
-    padding-right: 0;
+    padding: 28px 27px 32px;
+    margin: 0;
   }
 }

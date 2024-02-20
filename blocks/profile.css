@@ -33,11 +33,6 @@
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
-  margin-right: 24px;
-}
-
-.profile__image img {
-  width: 100%;
 }
 
 .profile__title {
@@ -84,21 +79,24 @@
 
 .profile__edit-button:hover {
   opacity: 0.6;
+  transition: 0.3s ease-in-out;
 }
 
 .profile__add-button {
   background: transparent url(../images/add-button.svg) center no-repeat;
+  width: 150px;
   height: 50px;
-  width: 282px;
   border: solid #fff 2px;
   border-radius: 2px;
   cursor: pointer;
   margin-left: auto;
   padding: 0;
+  flex-shrink: 0;
 }
 
 .profile__add-button:hover {
   opacity: 0.6;
+  transition: 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 620px) {
@@ -123,7 +121,6 @@
 
   .profile__add-button {
     margin: 0 19px 0;
-    width: 282px;
     padding: 0;
   }
 }
