@@ -8,7 +8,7 @@ This Project is about place around the U.S
 
 HTML and CSS
 
-# Github Link
+# Github Pages
 
 ### Overview
 
