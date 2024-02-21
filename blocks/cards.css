@@ -5,6 +5,7 @@
 @media screen and (max-width: 425px) {
   .cards {
     margin-top: auto;
+    max-width: 282px;
   }
 }
 
