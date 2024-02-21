@@ -10,8 +10,6 @@ HTML and CSS
 
 # Github Link
 
-https://github.com/jkingz0/se_project_aroundtheus
-
 ### Overview
 
 - Intro

@@ -24,7 +24,6 @@
   grid-gap: 10px 18px;
   justify-content: flex-start;
   align-items: baseline;
-  width: 100%;
 }
 
 .profile__image {
@@ -111,6 +110,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 36px;
+    padding: 0;
   }
 
   .profile__description {
