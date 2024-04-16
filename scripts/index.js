@@ -35,6 +35,7 @@ const profileDescriptionInput = document.querySelector(
   "#profile-description-input"
 );
 const profileEditForm = profileEditModal.querySelector(".modal__form");
+const cardTemplate = document.querySelector("#card-template");
 
 function closePopup() {
   profileEditModal.classList.remove("modal__opened");
