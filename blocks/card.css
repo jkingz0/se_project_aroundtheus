@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-.card__name {
+.card__title {
   max-width: 219px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
